@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkrobodriver=globalThis.webpackChunkrobodriver||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Greetings!","permalink":"/RoboDriver-Doc/en/blog/greetings","unlisted":false,"date":"2025-02-28T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkrobodriver=globalThis.webpackChunkrobodriver||[]).push([[224],{1976:(e,r,a)=>{a.r(r),a.d(r,{default:()=>h});a(6540);var i=a(1656),s=a(4848);function h(){return(0,s.jsxs)(i.A,{children:[(0,s.jsx)("h1",{children:"My React page"}),(0,s.jsx)("p",{children:"This is a React page"})]})}}}]);

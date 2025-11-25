@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkrobodriver=globalThis.webpackChunkrobodriver||[]).push([[503],{5674:e=>{e.exports=JSON.parse('{"tags":[{"label":"greetings","permalink":"/RoboDriver-Doc/en/blog/tags/greetings","count":1}]}')}}]);
