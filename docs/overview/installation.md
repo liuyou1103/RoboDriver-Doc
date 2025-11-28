@@ -3,7 +3,7 @@
 首先将`RoboDriver`项目代码clone下来，然后进入项目目录:
 
 ```bash
-git clone https://github.com/BAAI-EI-DATA/RoboDriver.git && cd RoboDriver
+git clone https://github.com/FlagOpen/RoboDriver.git && cd RoboDriver
 ```
 
 安装uv:
