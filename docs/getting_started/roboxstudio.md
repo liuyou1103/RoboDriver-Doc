@@ -2,9 +2,11 @@
 
 ## 一体化平台系统架构
 
-<p align="center">
-  <img src="./assets/images/system_architecture.png" alt="RoboDriver 一体化平台系统架构图" width="800"/>
-</p>
+![RoboDriver 一体化平台系统架构图](/img/roboxstudio_struct.png)
+
+<!-- <p align="center">
+  <img src="/img/roboxstudio_struct.png" alt="RoboDriver 一体化平台系统架构图" width="800"/>
+</p> -->
 
 RoboDriver 所属的机器人一体化平台系统包含三大核心组件，各组件职责明确、协同联动：
 

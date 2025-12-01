@@ -160,8 +160,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Beijing Academy of Artificial Intelligence (BAAI).  
-                    Contributions by Xiang Yang et al.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Beijing Academy of Artificial Intelligence (BAAI).`,
       },
       prism: {
         theme: prismThemes.github,
