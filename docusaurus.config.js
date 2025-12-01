@@ -97,7 +97,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/BAAI-EI-DATA/RoboDriver',
+            href: 'https://github.com/FlagOpen/RoboDriver',
             label: 'GitHub',
             position: 'right',
           },
@@ -130,7 +130,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/BAAI-EI-DATA',
+                href: 'https://github.com/FlagOpen/',
               },
               // {
               //   label: 'Stack Overflow',
@@ -155,7 +155,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/BAAI-EI-DATA',
+                href: 'https://github.com/FlagOpen/RoboDriver',
               },
             ],
           },
