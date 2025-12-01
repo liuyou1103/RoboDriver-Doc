@@ -161,7 +161,7 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Beijing Academy of Artificial Intelligence (BAAI).  
-                    Contributions by BAAI EI Data Group, Xiang Yang et al.`,
+                    Contributions by Xiang Yang et al.`,
       },
       prism: {
         theme: prismThemes.github,
