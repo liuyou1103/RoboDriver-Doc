@@ -45,9 +45,15 @@ robodriver-robot-[厂商型号名称]-[操作类型]-[接入类型]
 
 `RoboDriver` 系统提供了多个机器人模块的参考实现。统一通过 **SO-101 机械臂**、**(TODO: 仿真机器人)** 来构建，可以参考这些来实现新的机器人模块的接入。
 
+**aio机器人**
+
 - `so101-aio-py`: coming soon
 - `so101-aio-dora`: [robodriver-robot-so101-aio-dora](https://github.com/BAAI-EI-DATA/robodriver-robot-so101-aio-dora.git)
 - `so101-aio-ros2`: coming soon
+- `realman1-aio-dora`: [robodriver-robot-realman1-aio-dora](https://github.com/BAAI-EI-DATA/robodriver-robot-realman1-aio-dora.git)
+
+
+**follower机器人**
 
 - `so101-follower-py`: coming soon
 - `so101-follower-dora` : [robodriver-robot-so101-follower-dora](https://github.com/BAAI-EI-DATA/robodriver-robot-so101-follower-dora)
