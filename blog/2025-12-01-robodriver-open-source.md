@@ -1,7 +1,7 @@
 ---
 slug: 2025-12-01-robodriver-open-source
-title: "RoboDriver 项目正式开源！"
-authors: [robodriver-team, robodriver-maintainer]  # 关键：作者数组用逗号分隔
+title: "正式开源 | RoboDriver 项目正式开源！"
+authors: [robodriver-team] 
 tags: [框架开源, 发布]
 date: 2025-12-01
 ---

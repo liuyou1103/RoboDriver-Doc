@@ -93,9 +93,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'guideSidebar',
             position: 'left',
-            label: 'User Guide',
+            label: '用户指南',
           },
-          {to: '/blog', label: 'News', position: 'left'},
+          {to: '/blog', label: '新闻', position: 'left'},
           {
             href: 'https://github.com/FlagOpen/RoboDriver',
             label: 'GitHub',
@@ -113,29 +113,29 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Intro',
+                label: '概览',
                 to: '/docs/overview/robodriver',
               },
               {
-                label: 'Installation',
+                label: '安装与部署',
                 to: '/docs/overview/installation',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
-                label: 'GitHub',
+                label: '团队',
                 href: 'https://github.com/FlagOpen/',
               },
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
+              {
+                label: '一站式平台',
+                href: 'https://ei2data.baai.ac.cn/home',
+              },
               // {
               //   label: 'Discord',
               //   href: 'https://discordapp.com/invite/docusaurus',
@@ -147,10 +147,10 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'News',
+                label: '新闻',
                 to: '/blog',
               },
               {

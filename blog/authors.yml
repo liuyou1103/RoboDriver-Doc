@@ -1,18 +1,8 @@
 robodriver-team:
   name: RoboDriver 团队
-  title: 北京智源人工智能研究院 (BAAI)
-  url: https://github.com/FlagOpen/RoboDriver
-  image_url:  https://github.com/liuyou1103/RoboDriver-DOC/static/img/logo0.png
-  page: true
-  socials:
-    github: FlagOpen
-
-robodriver-maintainer:
-  name: RoboDriver 核心维护者
   title: CoRobot 数据体系研发
-  url: https://github.com/FlagOpen/RoboDriver
-  image_url: https://github.com/yangshun.png
-  page:
-    permalink: '/blog/authors/robodriver-maintainer'
+  url: https://github.com/FlagOpen/RoboDriver/
+  image_url: /img/robodriver.png
+  page: true
   socials:
     github: FlagOpen
