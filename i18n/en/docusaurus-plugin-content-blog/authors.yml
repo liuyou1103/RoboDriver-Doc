@@ -1,0 +1,8 @@
+robodriver-team:
+  name: RoboDriver Team
+  title: CoRobot Data Stack R&D
+  url: https://github.com/FlagOpen/RoboDriver/
+  image_url: /img/robodriver.png
+  page: true
+  socials:
+    github: FlagOpen

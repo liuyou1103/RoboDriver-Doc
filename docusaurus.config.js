@@ -38,6 +38,10 @@ const config = {
   i18n: {
     defaultLocale: 'zh',
     locales: ['zh', 'en'],
+    localeConfigs: {
+      zh: {label: '中文'},
+      en: {label: 'English'},
+    },
   },
 
   presets: [
@@ -100,9 +104,6 @@ const config = {
             href: 'https://github.com/FlagOpen/RoboDriver',
             label: 'GitHub',
             position: 'right',
-          },
-          {
-            type: 'docsVersionDropdown',
           },
           {
             type: 'localeDropdown',

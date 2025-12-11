@@ -33,10 +33,10 @@ robodriver-[RoboDriver模块种类名]-[模块名称]
 
 开发者仅需要根据 [参考实现](#参考实现) 完成模块对于 `LeRobot` 的适配，即可兼容 `RoboDriver` ， 但是`RoboDriver` 特有的功能接口需要再单独实现，否则将使用默认实现。
 
-同样的，如果完全实现按照 `RoboDriver` 规范完成了接入，也可将其接入在 `LeRobot` 中使用。详细见[兼容 LeRobot 框架](/docs/getting_started/lerobot.md)
+同样的，如果完全实现按照 `RoboDriver` 规范完成了接入，也可将其接入在 `LeRobot` 中使用。详细见[兼容 LeRobot 框架](../lerobot.md)
 
 ## 参考实现
 
 `RoboDriver` 在每一种模块种类都会提供接入的样例作为参考（见下文），并提供尽可能详细的接入实现文档。
 
-同时 `LeRobot` 也提供了一个详细的接入文档，参考该文档可完成 `LeRobot` 的接入。 
+同时 `LeRobot` 也提供了一个详细的接入文档，参考该文档可完成 `LeRobot` 的接入。

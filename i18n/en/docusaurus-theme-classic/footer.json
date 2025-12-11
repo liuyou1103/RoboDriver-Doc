@@ -1,0 +1,42 @@
+{
+  "link.title.文档": {
+    "message": "Docs",
+    "description": "Footer column title 文档"
+  },
+  "link.title.社区": {
+    "message": "Community",
+    "description": "Footer column title 社区"
+  },
+  "link.title.更多": {
+    "message": "More",
+    "description": "Footer column title 更多"
+  },
+  "link.item.label.概览": {
+    "message": "Overview",
+    "description": "Footer link label 概览"
+  },
+  "link.item.label.安装与部署": {
+    "message": "Installation",
+    "description": "Footer link label 安装与部署"
+  },
+  "link.item.label.新闻": {
+    "message": "News",
+    "description": "Footer link label 新闻"
+  },
+  "link.item.label.团队": {
+    "message": "Team",
+    "description": "Footer link label 团队"
+  },
+  "link.item.label.一站式平台": {
+    "message": "One-Stop Platform",
+    "description": "Footer link label 一站式平台"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Footer link label GitHub"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Beijing Academy of Artificial Intelligence (BAAI).",
+    "description": "Footer copyright"
+  }
+}

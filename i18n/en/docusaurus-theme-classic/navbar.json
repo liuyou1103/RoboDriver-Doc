@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "RoboDriver",
+    "description": "Navbar title"
+  },
+  "logo.alt": {
+    "message": "RoboDriver Logo",
+    "description": "Navbar logo alt text"
+  },
+  "item.label.用户指南": {
+    "message": "User Guide",
+    "description": "Navbar item with label 用户指南"
+  },
+  "item.label.新闻": {
+    "message": "News",
+    "description": "Navbar item with label 新闻"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
