@@ -1,45 +1,56 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import homepage0Gif from '@site/static/img/homepage4.gif';
+import homepage1Gif from '@site/static/img/homepage1.gif';
+import homepage3Gif from '@site/static/img/homepage3.gif';
 
+// 1. 定义GIF列表（替换原有SVG，自定义标题/描述）
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '一站式机器人驱动', // 自定义标题
+    gifSrc: homepage0Gif, // GIF路径（static/img/ 下的文件）
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        RoboDriver面向多类型机器人本体的通用驱动适配框架，提供一致化的控制接口与数据采集能力，
+        协同 RoboDriver-Server、RoboXStudio实现全流程任务下发、数据上报与管理。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '极简接入体验', // 自定义标题
+    gifSrc: homepage1Gif, // GIF路径
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        支持ROS1/ROS2/Dora多协议灵活接入；兼容并拓展 LeRobot 生态，
+        采集端单条存储更易编辑传输；可持续对接更多厂商设备、传感器模态与通信方式，适配成本显著降低。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '开箱即用·生态丰富',
+    gifSrc: homepage3Gif, 
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        已完成Realman、GALAXEALITE、SO101、Aloha等多款主流机器人适配，
+        按ROS1/ROS2/Dora分类提供完整接入指南（环境搭建、配置修改、功能验证）。
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+// 2. 重构Feature组件：用<img>渲染GIF（替代原SVG）
+function Feature({gifSrc, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* 渲染GIF图片，绑定样式 */}
+        <img 
+          src={gifSrc} 
+          className={styles.featureGif} 
+          alt={title} // 无障碍描述
+          loading="lazy" // 懒加载，优化性能
+        />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -62,3 +73,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+

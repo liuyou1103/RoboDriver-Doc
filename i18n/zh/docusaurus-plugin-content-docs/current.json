@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "版本控制",
+    "description": "The label for version current"
+  },
+  "sidebar.guideSidebar.category.Overview": {
+    "message": "概览",
+    "description": "The label for category 'Overview' in sidebar 'guideSidebar'"
+  },
+  "sidebar.guideSidebar.category.Getting Started": {
+    "message": "快速开始",
+    "description": "The label for category 'Getting Started' in sidebar 'guideSidebar'"
+  },
+  "sidebar.guideSidebar.category.Integration": {
+    "message": "核心接入",
+    "description": "The label for category 'Integration' in sidebar 'guideSidebar'"
+  }
+}

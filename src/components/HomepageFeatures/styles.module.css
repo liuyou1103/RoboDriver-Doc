@@ -1,10 +1,19 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   width: 100%;
 }
 
+/* GIF样式：匹配原SVG的尺寸和间距 */
+.featureGif {
+  height: 380px; /* 和原featureSvg保持一致 */
+  width: 380px;
+  margin: 0 auto; /* 居中显示 */
+  object-fit: contain; /* 保持GIF比例，不拉伸 */
+}
+
+/* 保留原SVG样式（兼容备用） */
 .featureSvg {
   height: 200px;
   width: 200px;

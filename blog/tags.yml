@@ -1,19 +1,109 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+框架开源:
+  label: 框架开源
+  permalink: /blog/tags/框架开源
+  description: RoboDriver 框架开源相关动态
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+发布:
+  label: 发布
+  permalink: /blog/tags/发布
+  description: 版本发布、项目上线等动态
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+技术解析:
+  label: 技术解析
+  permalink: /blog/tags/技术解析
+  description: 架构、原理等技术内容
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+功能更新:
+  label: 功能更新
+  permalink: /blog/tags/功能更新
+  description: 功能优化、特性升级等动态
+
+机器人适配:
+  label: 机器人适配
+  permalink: /blog/tags/机器人适配
+  description: 各类机器人的接入适配方案（ROS/ROS2/Dora等方式）
+
+Dora:
+  label: Dora
+  permalink: /blog/tags/Dora
+  description: 基于 Dora 框架的机器人接入适配相关动态
+
+开源机械臂:
+  label: 开源机械臂
+  permalink: /blog/tags/开源机械臂
+  description: SO101/SO100 等开源轻量级机械臂适配相关动态
+
+ROS1:
+  label: ROS1
+  permalink: /blog/tags/ROS1
+  description: 基于 ROS1 框架的机器人接入适配相关动态
+
+ROS2:
+  label: ROS2
+  permalink: /blog/tags/ROS2
+  description: 基于 ROS2 框架的机器人接入适配相关动态
+
+工业机械臂:
+  label: 工业机械臂
+  permalink: /blog/tags/工业机械臂
+  description: Realman 等工业级机械臂适配相关动态
+
+双臂机械臂:
+  label: 双臂机械臂
+  permalink: /blog/tags/双臂机械臂
+  description: GALAXEALITE 等双臂机械臂适配相关动态
+
+力控模块:
+  label: 力控模块
+  permalink: /blog/tags/力控模块
+  description: 机械臂力控模块适配、数据采集相关动态
+
+数据采集:
+  label: 数据采集
+  description: 数据集格式、采集流程、数据校验相关动态
+  permalink: /blog/tags/数据采集
+
+数据可视化:
+  label: 数据可视化
+  permalink: /blog/tags/数据可视化
+  description: 数据集可视化工具、离线校验相关动态
+
+社区贡献:
+  label: 社区贡献
+  permalink: /blog/tags/社区贡献
+  description: 贡献者指南、PR审核、适配计划相关动态
+
+社区活动:
+  label: 社区活动
+  permalink: /blog/tags/社区活动
+  description: 线上分享会、技术沙龙等社区活动动态
+
+性能优化:
+  label: 性能优化
+  permalink: /blog/tags/性能优化
+  description: 数据传输、指令响应等性能优化相关动态
+
+工具发布:
+  label: 工具发布
+  permalink: /blog/tags/工具发布
+  description: 配套调试、可视化工具的发布与更新动态
+
+文档发布:
+  label: 文档发布
+  permalink: /blog/tags/文档发布
+  description: 官方文档、使用指南的发布与更新动态
+
+功能升级:
+  label: 功能升级
+  permalink: /blog/tags/功能升级
+  description: 架构、原理等功能升级
+  
+快速入门:
+  label: 快速入门
+  permalink: /blog/tags/快速入门
+  description: 新手入门相关内容
+
+开发指南:
+  label: 开发指南
+  permalink: /blog/tags/开发指南
+  description: 开发教程和最佳实践
