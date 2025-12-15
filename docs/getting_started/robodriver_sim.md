@@ -1,46 +1,19 @@
-# 启用 RoboDriver 仿真
+# 启动 RoboDriver 仿真
 
 硬件和环境的问题是各种各样的，为了您能够快速的了解并开始使用我们的 `RoboDriver` 框架和 `RoboXstudio` 平台。我们推荐您首先启用RoboDriver仿真。 
 
-截至本文档编写时，已完成`Gensis`仿真环境的基本适配。本文档以 [robodriver/simulations/robodriver-sim-genesis-franka-aio-dora](./robodriver/simulations/robodriver-sim-genesis-franka-aio-dora) 为默认仿真环境，未来适配的其他环境可基本参考该文档及其对应目录文档。
+截至本文档编写时，已完成`Gensis`仿真环境的基本适配。本文档以 `RoboDriver/robodriver/simulations/robodriver-sim-genesis-franka-aio-dora` 为默认仿真环境，未来适配的其他环境可基本参考该文档及其对应目录文档。
 
-### 安装对应环境
+## 安装对应环境
 
-#### 1. RoboDriver 环境
-
-确保进入RoboDriver目录，如果已经进入就跳过：
+新建一个终端，且暂时不激活环境，进入到 `dora-sim-genesis-franka-grasp-cube` 目录。
 
 ```
-cd RoboDriver/
+cd RoboDriver
+cd robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/nodes/dora-sim-genesis-franka-grasp-cube
 ```
 
-激活环境，默认使用 `uv`, `conda` 激活和后续安装也可参考。环境安装使用请参考 [概览/安装与部署](overview/installation)
-
-```
-source .venv/bin/activate
-```
-
-进入对应目录
-
-```
-cd robodriver/simulations/robodriver-sim-genesis-franka-aio-dora
-```
-
-安装 robodriver_sim_genesis_franka_aio_dora
-
-```
-uv pip install -e .
-```
-
-#### 2. Dora 环境
-
-新建一个终端，同上文，不激活环境进入对应目录，但是要更深入到dora/nodes文件夹。
-
-```
-cd RoboDriver/robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/nodes/dora-sim-genesis-franka-grasp-cube
-```
-
-创建一个新的 `uv` 环境
+创建一个新的 `uv` 环境，也可使用 `conda`。
 
 ```
 uv venv
@@ -70,7 +43,7 @@ uv pip install -e .
 
 :::
 
-### 启动仿真
+## 启动仿真
 
 仿真部分位于 `Dora环境` 中，启动仿真的终端和后面使用 `RoboDriver` 的终端使用不同环境。
 
@@ -129,3 +102,5 @@ dora start dataflow.yml
       ESC键 - 退出程序
 ====================================================
 ```
+
+完成此步后即可往后部署 `RoboDriver-Server`

@@ -37,6 +37,7 @@ const sidebars = {
       items: [
         'getting_started/robodriver_sim',
         'getting_started/roboxstudio',
+        'getting_started/robodriver',
         {
           type: 'category',
           label: 'Integration',
