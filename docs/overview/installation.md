@@ -76,7 +76,25 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 
-补充安装：
+:::info
+如果 `uv` 安装遇到了下载卡顿的情况，请考虑更换源。在 `~/.bashrc` 中添加: 
+
+```
+export UV_INDEX_URL=https://mirrors.aliyun.com/pypi/simple
+```
+
+然后执行：
+
+```
+source ~/.bashrc
+```
+
+:::
+
+## 补充安装
+
+### opencv-python
+
 由于依赖的`LeRobot`会自动安装`opencv-python-headless`，本系统默认使用了opencv可视化查看图片，因此需要手动替换opencv为非headless版本。
 
 <Tabs>
@@ -113,3 +131,11 @@ import TabItem from '@theme/TabItem';
 
   </TabItem>
 </Tabs>
+
+### cuda
+
+如果您需要在仿真中用到gpu加速，请检查您系统内的cuda是否正常安装,本文档默认支持cuda：
+
+```
+nvcc -V
+```
