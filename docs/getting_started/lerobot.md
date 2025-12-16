@@ -10,7 +10,7 @@ uv pip install -e .
 uv pip install -e .
 ```
 
-通过LeRobot采集数据：
+通过LeRobot采集数据，其中的 `robot.type` 和 `teleop.type` 根据您接入的机器人替换：
 
 ```bash
 lerobot-record \
