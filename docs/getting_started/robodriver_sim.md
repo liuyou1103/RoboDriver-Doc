@@ -15,31 +15,45 @@ cd robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/nodes/dora
 
 创建一个新的 `uv` 环境，也可使用 `conda`。
 
-```
+```bash
 uv venv
 ```
 
-安装
+安装依赖
 
-```
+```bash
 uv pip install -e .
 ```
 
 :::info
 
-如果您没有安装cuda，只考虑使用cpu进行仿真。请修改`dora-sim-genesis-franka-grasp-cube/main.py` 第118行：
+如果您的设备不支持cuda，或没有安装cuda，安装会遇到报错信息，其中会包含 “depends on 'torch' (v2.x.x) which depends on 'nvidia-x-x'” 或类似信息。
 
-```
+如果您考虑使用cuda进行仿真，请使用支持cuda的设备，并正确安装显卡驱动和cuda后，再重新安装上文依赖。
+
+如果您只考虑使用cpu进行仿真，请修改`dora-sim-genesis-franka-grasp-cube/main.py` 第118行：
+
+```python
     gs.init(backend=gs.gpu, logging_level="warn")
 ```
 
 更改为：
 
-```
+```python
     gs.init(backend=gs.cpu, logging_level="warn")
 ```
 
-再执行安装。
+再执行安装 `cpu` 版本 `torch`，根据情况选择源：
+
+```bash title="使用国内源"
+uv pip install torch torchvision --find-links https://mirrors.aliyun.com/pytorch-wheels/cpu
+```
+
+```bash title="使用官方源"
+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+```
+
+再重新执行上文安装依赖命令。
 
 :::
 
