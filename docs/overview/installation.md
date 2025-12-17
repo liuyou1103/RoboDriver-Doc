@@ -91,7 +91,17 @@ source ~/.bashrc
 
 :::
 
-## 补充安装
+## 推荐可选安装
+
+### cuda
+
+如果您需要在仿真中用到gpu加速，请检查您系统内的cuda是否正常安装,本文档默认支持cuda：
+
+```
+nvcc -V
+```
+
+## 其他可选安装
 
 ### opencv-python
 
@@ -135,11 +145,3 @@ source ~/.bashrc
 
   </TabItem>
 </Tabs>
-
-### cuda
-
-如果您需要在仿真中用到gpu加速，请检查您系统内的cuda是否正常安装,本文档默认支持cuda：
-
-```
-nvcc -V
-```
