@@ -95,6 +95,10 @@ source ~/.bashrc
 
 ### opencv-python
 
+:::info
+已经更改为默认不启用opencv可视化，可以跳过这个补充安装
+:::
+
 由于依赖的`LeRobot`会自动安装`opencv-python-headless`，本系统默认使用了opencv可视化查看图片，因此需要手动替换opencv为非headless版本。
 
 <Tabs>

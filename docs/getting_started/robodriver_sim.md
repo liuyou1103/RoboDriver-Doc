@@ -6,10 +6,22 @@
 
 ## 安装对应环境
 
-新建一个终端，且暂时不激活环境，进入到 `dora-sim-genesis-franka-grasp-cube` 目录。
+:::info
+在开始前，请确保您已经完成 [概览/安装与部署](/docs/overview/installation) 中的步骤。
+:::
+
+
+新建一个终端，且暂时不激活任何环境。
+
+确保进入RoboDriver目录，如果已经进入就跳过：
 
 ```
-cd RoboDriver
+cd RoboDriver/
+```
+
+进入到 `dora-sim-genesis-franka-grasp-cube` 目录。
+
+```
 cd robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/nodes/dora-sim-genesis-franka-grasp-cube
 ```
 
@@ -18,6 +30,11 @@ cd robodriver/simulations/robodriver-sim-genesis-franka-aio-dora/dora/nodes/dora
 ```bash
 uv venv
 ```
+
+:::info
+这里创建的环境与 [概览/安装与部署](/docs/overview/installation) 中创建的RoboDriver环境并不是同一个
+:::
+
 
 安装依赖
 
