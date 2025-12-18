@@ -48,13 +48,13 @@ robodriver-robot-[厂商型号名称]-[操作类型]-[接入类型]
 **aio机器人**
 
 - `so101-aio-py`: coming soon
-- `so101-aio-dora`: [robodriver-robot-so101-aio-dora](https://github.com/BAAI-EI-DATA/robodriver-robot-so101-aio-dora.git)
-- `so101-aio-ros2`: coming soon
-- `realman1-aio-dora`: [robodriver-robot-realman1-aio-dora](https://github.com/BAAI-EI-DATA/robodriver-robot-realman1-aio-dora.git)
+- `so101-aio-dora`: [robodriver-robot-so101-aio-dora](https://github.com/FlagOpen/RoboDriver/tree/main/robodriver/robots/robodriver-robot-so101-aio-dora)
+- `so101-aio-ros2`: [robodriver-robot-so101-aio-ros2](https://github.com/FlagOpen/RoboDriver/tree/main/robodriver/robots/robodriver-robot-so101-aio-ros2)
+- `realman1-aio-dora`: [robodriver-robot-realman1-aio-dora](https://github.com/FlagOpen/RoboDriver/tree/main/robodriver/robots/robodriver-robot-realman1-aio-dora)
 
 
 **follower机器人**
 
 - `so101-follower-py`: coming soon
-- `so101-follower-dora` : [robodriver-robot-so101-follower-dora](https://github.com/BAAI-EI-DATA/robodriver-robot-so101-follower-dora)
+- `so101-follower-dora` : [robodriver-robot-so101-follower-dora](https://github.com/FlagOpen/RoboDriver/tree/main/robodriver/robots/robodriver-robot-so101-follower-dora)
 - `so101-follower-ros2`: coming soon

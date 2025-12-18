@@ -45,7 +45,7 @@ robodriver-teleoperator-[厂商型号名称]-[操作类型]-[接入类型]
 `RoboDriver` 系统提供了多个遥操器模块的参考实现，可以参考这些来实现新的遥操器模块的接入。
 
 - `so101-leader-py`: coming soon
-- `so101-leader-dora` : [robodriver-teleoperator-so101-leader-dora](https://github.com/BAAI-EI-DATA/robodriver-teleoperator-so101-leader-dora)
+- `so101-leader-dora` : [robodriver-teleoperator-so101-leader-dora](https://github.com/FlagOpen/RoboDriver/tree/main/robodriver/teleoperators/robodriver-teleoperator-so101-leader-dora)
 - `so101-leader-ros2`: coming soon
 
 - `keyboard-eepose-py`: coming soon
