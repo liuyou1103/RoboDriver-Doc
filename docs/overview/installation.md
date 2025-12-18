@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
     创建一个虚拟环境并激活：
 
     ```bash
-    uv venv .venv
+    uv venv --seed -p 3.10
     source .venv/bin/activate
     ```
 
@@ -92,6 +92,76 @@ source ~/.bashrc
 :::
 
 ## 推荐可选安装
+
+### dora
+
+如果您需要用到 `RoboDriver` 中涉及 `Dora` 的组件、机器人、遥操器，请提前在系统环境中安装 `dora-rs-cli`
+
+创建新的终端，退出已经激活的环境。
+
+<Tabs>
+  <TabItem value="uv" default>
+
+    ```bash
+    deactivate
+    ```
+
+  </TabItem>
+  <TabItem value="miniconda">
+    
+    ```bash
+    conda deactivate
+    ```
+
+  </TabItem>
+</Tabs>
+
+`Dora` 提供了多种安装方法，根据情况选其一即可：
+
+<Tabs>
+  <TabItem value="pip" default>
+
+    ```bash
+    pip install dora-rs-cli
+    ```
+
+  </TabItem>
+  <TabItem value="Linux">
+
+    ```bash
+    curl --proto '=https' --tlsv1.2 -LsSf https://github.com/dora-rs/dora/releases/latest/download/dora-cli-installer.sh | sh
+    ```
+
+  </TabItem>
+  <TabItem value="MacOS">
+
+    ```bash
+    curl --proto '=https' --tlsv1.2 -LsSf https://github.com/dora-rs/dora/releases/latest/download/dora-cli-installer.sh | sh
+    ```
+
+  </TabItem>
+  <TabItem value="Windows">
+
+    ```bash
+    powershell -ExecutionPolicy ByPass -c "irm https://github.com/dora-rs/dora/releases/latest/download/dora-cli-installer.ps1 | iex"
+    ```
+
+  </TabItem>
+  <TabItem value="Cargo">
+
+    ```bash
+    cargo install dora-cli # In case of issues, try: `--locked`
+    ```
+
+  </TabItem>
+  <TabItem value="Source">
+
+  https://github.com/dora-rs/dora
+
+  </TabItem>
+
+
+</Tabs>
 
 ### cuda
 
