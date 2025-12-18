@@ -1,15 +1,33 @@
 # 安装与部署
 
-首先将`RoboDriver`项目代码clone下来，然后进入项目目录:
+首先将 `RoboDriver` 项目代码clone下来，然后进入项目目录:
 
 ```bash
 git clone https://github.com/FlagOpen/RoboDriver.git && cd RoboDriver
 ```
 
-推荐使用`uv`或`miniconda`来管理python环境
+推荐使用 `uv` 或 `miniconda` 来管理python环境
 
 :::info
 如果接入的机器人需要使用ros或ros2，请优先考虑miniconda，或使用系统自带环境，使用系统环境的命令参考miniconda
+:::
+
+:::info
+如果在安装完 `uv` 或 `dora` 后，遇到了无法找到该命令的问题。
+
+请在 `~/.bashrc` 中添加这一行（）：
+
+```
+# 注意将 <your user name> 替换为你的用户名
+export PATH=/home/<your user name>/.local/bin:$PATH
+```
+
+添加并保存推出后，运行：
+
+```
+source ~/.bashrc
+```
+
 :::
 
 import Tabs from '@theme/Tabs';
@@ -18,7 +36,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="uv" default>
 
-    安装`uv`：
+    安装 `uv`：
 
     ```bash
     pip install uv
